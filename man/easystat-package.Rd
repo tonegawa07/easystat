@@ -4,12 +4,12 @@
 \name{easystat-package}
 \alias{easystat}
 \alias{easystat-package}
-\title{easystat: What the Package Does (One Line, Title Case)}
+\title{easystat: Easy to perform statistical tests}
 \description{
 What the package does (one paragraph).
 }
 \author{
-\strong{Maintainer}: First Last \email{first.last@example.com} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
+\strong{Maintainer}: Yusuke Fukuda \email{tonegawa07@gmail.com}
 
 }
 \keyword{internal}

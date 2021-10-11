@@ -5,13 +5,19 @@ Authors@R:
     person(given = "Yusuke",
            family = "Fukuda",
            role = c("aut", "cre"),
-           email = "")
+           email = "tonegawa07@gmail.com")
 Description: What the package does (one paragraph).
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
+Imports:
+    dplyr,
+    tidyr,
+    forcats,
+    magrittr,
+    multcomp
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
