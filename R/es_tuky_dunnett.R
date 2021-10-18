@@ -32,7 +32,7 @@ es_dataset <- function(data, vx, fx)
 es_tukey <- function(data, vx, fx, sig_level)
 {
   tukey_result <-
-    easystat::es_dataset(data, vx, fx) %>%
+    es_dataset(data, vx, fx) %>%
     aov(vx ~ fx, data = .) %>%
     multcomp::glht(linfct = multcomp::mcp(fx = "Tukey")) %>%
     multcomp::cld(level = sig_level) %>%
@@ -58,7 +58,7 @@ es_tukey <- function(data, vx, fx, sig_level)
 es_dunnett <- function(data, vx, fx)
 {
   dunnett_summary <-
-    easystat::es_dataset(data, vx, fx) %>%
+    es_dataset(data, vx, fx) %>%
     aov(vx ~ fx, data = .) %>%
     multcomp::glht(linfct = multcomp::mcp(fx = "Dunnett")) %>%
     summary() %>%

@@ -3,4 +3,4 @@
 \docType{package}
 \name{easystat}
 \alias{easystat}
-\title{easystat: A package that makes it easy to run statistical tests anyway.}
+\title{easystat: A package that makes statistical processing easy anyway.}
